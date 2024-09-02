@@ -19,8 +19,8 @@ set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/vcpkg/scripts/buildsystems
   CACHE STRING "Vcpkg toolchain file")
 
   
-project(template
-DESCRIPTION "Template Project Library "
+project(post-processing-diving
+DESCRIPTION "Project Library to Post Process diving video "
 LANGUAGES CXX
 )
 
